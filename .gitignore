@@ -1,0 +1,22 @@
+# Compilação e Binários
+build/
+bin/
+obj/
+Debug/
+Release/
+*.exe
+*.pdb
+*.ilk
+
+# Configurações de IDE (VS Code / Visual Studio)
+.vscode/
+.vs/
+*.user
+*.suo
+
+# Resultados de Testes Locais
+results.*
+*.stats.txt
+*.processed.fasta
+test.fasta
+bad_data.fasta
