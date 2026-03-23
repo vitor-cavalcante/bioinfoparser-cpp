@@ -1,22 +1,39 @@
-# Compilação e Binários
+# === Compilação e Binários ===
 build/
 bin/
 obj/
 Debug/
 Release/
+x64/
+x86/
 *.exe
+*.dll
+*.so
+*.dylib
+*.lib
 *.pdb
 *.ilk
+*.exp
 
-# Configurações de IDE (VS Code / Visual Studio)
+# === Configurações de IDE (VS Code / Visual Studio) ===
 .vscode/
 .vs/
 *.user
 *.suo
+*.sln
+*.vcxproj
+*.filters
+*.tlog
+*.lastbuildstate
+*.idb
 
-# Resultados de Testes Locais
+# === Resultados de Testes Locais ===
+# Ignora arquivos de saída gerados durante os testes
 results.*
 *.stats.txt
 *.processed.fasta
-test.fasta
-bad_data.fasta
+
+# === Exceções ===
+# Garante que a pasta 'data' e seus arquivos .fasta sejam rastreados
+!data/
+!data/*.fasta
