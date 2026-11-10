@@ -1,10 +1,10 @@
-# 🧬 BioinfoParser-CPP
+# BioinfoParser-CPP
 
 A high-performance tool for processing and analyzing genomic sequences (FASTA).
 
 BioinfoParser-CPP is a Command Line Interface (CLI) application developed in **C++23**, designed to handle FASTA files with a focus on memory efficiency and analytical precision. The tool processes large volumes of genomic data, extracting vital statistics and performing molecular transformations safely through a robust exception-handling system.
 
-## 🚀 Key Features
+## Key Features
 
 - **Multi-FASTA Parsing**: Robust reading of files containing multiple sequences and metadata.
 - **Composition Analysis**:
@@ -17,7 +17,7 @@ BioinfoParser-CPP is a Command Line Interface (CLI) application developed in **C
   - `.processed.fasta`: File containing validated and formatted sequences.
   - `.stats.txt`: Human-readable technical report with quality and composition metrics.
 
-## 🛠️ Technical Highlights
+## Technical Highlights
 
 This project was built applying **Clean Code** principles and the latest language features:
 
@@ -26,7 +26,7 @@ This project was built applying **Clean Code** principles and the latest languag
 - **Robustness**: Validation system that identifies issues in corrupted or missing files without interrupting the system flow.
 - **Cross-Platform**: Guaranteed support for Windows (MSVC), Linux, and macOS via CMake.
 
-## ⚙️ Build and Installation
+## Build and Installation
 
 The project uses **CMake** (version 3.25 or higher) to manage the build process:
 
@@ -40,7 +40,7 @@ cmake ..
 # 3. Build
 cmake --build . --config Debug
 
-💻 Usage
+Usage
 
 The command-line interface is intuitive and designed for seamless integration into automation pipelines.
 
@@ -58,7 +58,7 @@ Available Flags:
 
     --output <name> : Base name for output files (generates <name>.processed.fasta and <name>.stats.txt).
 
-📂 Repository Structure
+Repository Structure
 
 ├── src/            # Implementation (.cpp)
 ├── include/        # Headers and Definitions (.hpp)
